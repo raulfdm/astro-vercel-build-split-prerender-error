@@ -1,0 +1,18 @@
+---
+export const prerender = true;
+
+export const getStaticPaths = function languageGetStaticPaths() {
+  return [
+    {
+      params: {
+        lang: `en`,
+      },
+    },
+    {
+      params: {
+        lang: `pt`,
+      },
+    },
+  ];
+};
+---
