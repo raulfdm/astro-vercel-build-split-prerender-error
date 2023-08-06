@@ -15,6 +15,10 @@ export const getStaticPaths = function languageGetStaticPaths() {
     },
   ];
 };
+
+const { lang } = Astro.params;
 ---
 
-<h1>hoi</h1>
+<a href="/">Back</a>
+
+<h1>Language "{lang}"</h1>
