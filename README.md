@@ -1,9 +1,9 @@
-# AStro + Vercel + build split + prerender pages
+# Astro + Vercel + build split + prerender pages
 
 ## Getting started
 
 1. run `pnpm install` in the root;
-1. then, run `pnpm -F website run build`
+1. then, run `pnpm run build`
 1. see the error
 
 ```
